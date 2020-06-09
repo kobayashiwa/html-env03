@@ -1,0 +1,193 @@
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	margin: 0;
+	font-family: 'Open Sans', sans-serif;
+	color: #2C3543;
+}
+a {
+	text-decoration: none;
+}
+ul {
+	list-style: none;
+	margin: 0px;
+	text-align: center;
+}
+h2 {
+	font-size: 40px;
+	margin-top: 0;
+}
+header {
+	z-index: 10;
+	position: relative;
+}
+.header-logo {
+	position: absolute;
+	top: 64px;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+header img {
+	width: 142px;
+}
+.container {
+	width: 100%;
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 0 16px;
+}
+.top-wrapper {
+	background-image: url(../image/top-image.png);
+	background-size: cover;
+	padding: 24em 8em 4em 4em;
+}
+.top-wrapper h1 {
+	color: #fff;
+	font-size: 48px;
+	line-height: 1.2;
+}
+ul.flex-box {
+	display: flex;
+}
+.cardLayout {
+	padding: 60px 0;
+}
+ul.flex-box li {
+	flex: auto;
+}
+.card img {
+	width: 94%;
+	border-radius: 4px;
+}
+.cardLayout .card p {
+	text-align: left;
+	width: 94%;
+	margin: 0 auto;
+}
+.tag {
+	font-size: 12px;
+	font-weight: 700;
+	color: #6B727B;
+	padding-top: 1em;
+	text-transform: uppercase;
+}
+.cardLayout .text {
+	font-size: 20px;
+	padding-top: .4em;
+	font-weight: 600;
+}
+.travelInspiration-wrapper {
+	margin-bottom: 64px;
+}
+.inspiration, .cardPreviews {
+	margin-top: 36px;
+}
+.icon img {
+	width: 48px;
+}
+.icon p {
+	font-size: 14px;
+	font-weight: 600;
+	padding-top: 1em;
+	color: #277BBA;
+}
+.latest-wrapper {
+	margin-bottom: 160px;
+}
+.cardPreviews {
+	display:flex;
+	justify-content:space-between;
+	margin-left: -40px;
+}
+.cardPreview {
+	flex: auto;
+	padding-left: 40px;
+	text-align: left;
+}
+.cardPreview img {
+	width: 100%;
+}
+.text {
+	font-weight: 600;
+	font-size: 20px;
+}
+.category {
+	color: #277BBA;
+}
+.latestListItem {
+	margin-top: 60px;
+	flex-wrap: wrap;
+	margin-left: -40px;
+}
+.latestListItem li {
+	width: 50%;
+	padding-left: 40px;
+	margin-bottom: 40px;
+}
+.LatestList {
+	display: flex;
+	align-items: center;
+}
+.textContainer {
+	text-align: left;
+	flex: 1 1;
+}
+.ListItemThumbnail {
+	padding-left: 1em;
+}
+.ListItemThumbnail img{
+	width: 110px;
+	height: 110px;
+	max-width: 110px;
+}
+
+
+@media (max-width: 1000px) {
+	.container {
+		padding: 0 2em;
+	}
+	ul.flex-box {
+	  flex-wrap: wrap;
+	}
+	ul.cardLayout li {
+	  width: 50%;
+	  margin-bottom: 1em;
+	}
+	.card {
+		margin-bottom: 2em;
+	}
+	ul.inspiration li {
+		width: 25%;
+		margin-bottom: 2em;
+	  }
+	  .latestListItem {
+		flex-direction: column;
+	  }
+	  .latestListItem li {
+		  width: 100%;
+	  }
+  }
+@media (max-width: 670px) {
+	ul.cardLayout {
+		flex-direction: column;
+	}
+	ul.cardLayout li {
+		width: 100%;
+	}
+	ul.inspiration li {
+		width: 50%;
+	}
+	.cardPreviews {
+		flex-direction: column;
+	}
+	.cardPreview {
+		margin-bottom: 2em;
+	}
+	.latestListItem {
+		margin-top: 40px;
+	}
+}
