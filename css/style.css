@@ -202,6 +202,9 @@ ul.flex-box li {
 	  .latestListItem li {
 		  width: 100%;
 	  }
+	  .VideoPreview .iconPlay img{
+		width: 48px;	
+	}
   }
 @media (max-width: 670px) {
 	ul.cardLayout {
@@ -224,5 +227,8 @@ ul.flex-box li {
 	}
 	.VideoPreview h3 {
 		font-size: 20px;
+	}
+	.VideoPreview .iconPlay img{
+		width: 32px;	
 	}
 }
