@@ -151,6 +151,9 @@ ul.flex-box li {
 .FeaturedVideo-wrapper .container{
 	padding: 80px 16px;
 }
+.FeaturedVideo-wrapper h2 {
+	color: #fff;
+}
 
 
 @media (max-width: 1000px) {
