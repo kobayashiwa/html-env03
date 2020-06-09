@@ -96,7 +96,7 @@ ul.flex-box li {
 	color: #277BBA;
 }
 .latest-wrapper {
-	margin-bottom: 160px;
+	margin-bottom: 80px;
 }
 .cardPreviews {
 	display:flex;
@@ -143,6 +143,13 @@ ul.flex-box li {
 	width: 110px;
 	height: 110px;
 	max-width: 110px;
+}
+.FeaturedVideo-wrapper {
+	margin-bottom: 160px;
+	background: #1F1F1F;
+}
+.FeaturedVideo-wrapper .container{
+	padding: 80px 16px;
 }
 
 
