@@ -152,11 +152,30 @@ ul.flex-box li {
 	background: #1F1F1F;
 }
 .FeaturedVideo-wrapper .container{
-	padding: 80px 16px;
+	padding: 80px 40px;
 }
 .FeaturedVideo-wrapper h2 {
 	color: #fff;
+	padding-bottom: 32px;
 }
+.VideoPreview h3 {
+	font-size: 32px;
+	color: #fff;
+}
+.cover {
+	position: relative;
+}
+.VideoPreview .cover img {
+	width: 100%;
+	border-radius: 4px;
+}
+.VideoPreview .iconPlay img{
+	width: 64px;	
+	position: absolute;
+	left: 2%;
+	bottom: 5%;
+}
+
 
 
 @media (max-width: 1000px) {
@@ -202,5 +221,8 @@ ul.flex-box li {
 	}
 	.latestListItem {
 		margin-top: 40px;
+	}
+	.VideoPreview h3 {
+		font-size: 20px;
 	}
 }
